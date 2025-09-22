@@ -6,70 +6,92 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
       margin: 0;
       padding: 0;
+      background-color: #e0f7fa; /* azul cian muy claro */
+      color: #000; /* texto negro */
     }
-    header, footer {
-      background-color: #6b21a8;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
-    h1, h2, h3 {
+
+    header {
+      background-color: #00bcd4; /* azul cian */
       color: black;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     }
+
+    .titulo-header {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+
     main {
       padding: 20px;
       max-width: 800px;
-      margin: auto;
-      background-color: white;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 8px;
+      margin: 20px auto;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
     }
+
+    h3 {
+      color: #00bcd4; /* azul cian */
+    }
+
     img {
       display: block;
-      margin: 10px 0;
-      border-radius: 8px;
+      margin: 15px auto;
+      border-radius: 10px;
+      width: 250px;
+      height: auto;
+      border: 2px solid #00bcd4;
     }
+
     table {
-      border-collapse: collapse;
       width: 100%;
+      border-collapse: collapse;
       margin-top: 10px;
     }
+
     table, th, td {
-      border: 1px solid #ccc;
+      border: 1px solid #000;
     }
+
     th, td {
       padding: 8px;
-      text-align: left;
+      text-align: center;
     }
-    iframe {
-      margin-top: 10px;
-      border-radius: 8px;
+
+    footer {
+      background: #000; /* negro */
+      color: #fff;
+      padding: 15px;
+      text-align: center;
     }
-    a {
-      color: #6b21a8;
+
+    footer a {
+      color: #00ffff; /* azul cian */
       text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
     }
-    a:hover {
+
+    footer a:hover {
       text-decoration: underline;
     }
-    footer p {
-      margin: 5px 0;
-      
-    }
-    header {
-  background-color: purple;
-  color: white;
-  padding: 40px;
-  text-align: center;
-}
 
-.titulo-header {
-  margin: 0;
-  font-size: 2.5em;
-  font-family: Arial, sans-serif;
+    iframe {
+      display: block;
+      margin: 15px auto;
+      border: 2px solid #00bcd4;
+      border-radius: 10px;
+    }
+    .subtitulo-header {
+  margin: 5px 0 0 0;
+  font-size: 1.2em; /* más pequeño que el título */
+  font-weight: normal; /* opcional: menos grueso que el título */
+  color: black; /* puedes cambiar a un gris oscuro si quieres más contraste */
 }
 
   </style>
@@ -77,16 +99,17 @@
 <body>
   <!-- Encabezado -->
   <header>
-    <h1>Ángel Gael Tavares Vázquez</h1>
-    <h2>Breve Autobiografía</h2>
+   <h1 class="titulo-header">Ángel Gael Tavares Vázquez</h1>
+<h2 class="subtitulo-header">Estudiante de Entornos Virtuales | Apasionado por el diseño digital</h2>
+
   </header>
 
   <main>
     <!-- Párrafo -->
-    <p>Hola a todos, mi nombre es Angel Gael Tavares Vázquez y tengo 19 años. Actualmente estoy en 4to cuatrimestre de universidad en la carrera de Entornos Virtuales. Me gusta el diseño digital, la música y la fotografía. Mis hobbies incluyen tocar la guitarra, tomar fotos y dibujar.</p>
+    <p>Hola a todos, esta es una pequeña autobiogrfía sobre mí. Mi nombre es Ángel Gael Tavares Vázquez y tengo 19 años. Actualmente estoy en 4to cuatrimestre de universidad en la carrera de Entornos Virtuales. Me gusta el diseño digital, la música y la fotografía. Mis hobbies incluyen tocar la guitarra, tomar fotos y dibujar.</p>
 
     <!-- Imagen -->
-    <img src="Imagen_Web.jpg" alt="Foto de ejemplo">
+    <img src="Imagen_Web.jpg" alt="Foto de Ángel Gael">
 
     <!-- Lista no ordenada -->
     <h3>Mis Hobbies</h3>
@@ -135,15 +158,19 @@
 
     <!-- Video embebido -->
     <h3>Video favorito</h3>
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/8ikYL4_yYCE" title="YouTube video" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/8ikYL4_yYCE" title="YouTube video" allowfullscreen></iframe>
 
+    <!-- Link -->
+    <p>Visita mi <a href="https://github.com/" target="_blank">GitHub</a></p>
   </main>
 
   <!-- Datos del desarrollador -->
   <footer>
     <p>Desarrollador: Ángel Gael Tavares Vázquez</p>
-    <p>Instagram: <a href="https://www.instagram.com/angxl.4.you" target="_blank">@angxl.4.you</a></p>
-    <p>Facebook: <a href="https://www.facebook.com/AngelTavares" target="_blank">Angel Tavares</a></p>
+    <p>
+      <a href="https://www.instagram.com/angxl.4.you" target="_blank">Instagram</a> | 
+      <a href="https://www.facebook.com/AngelTavares" target="_blank">Facebook</a>
+    </p>
   </footer>
 </body>
 </html>
