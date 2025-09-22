@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Personal - Ángel Gael Tavares Vázquez</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #6b21a8;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    h1, h2, h3 {
+      color: #6b21a8;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    img {
+      display: block;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    iframe {
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+    a {
+      color: #6b21a8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>Ángel Gael Tavares Vázquez</h1>
+    <h2>Breve Autobiografía</h2>
+  </header>
+
+  <main>
+    <!-- Párrafo -->
+    <p>Hola a todos, mi nombre es Angel Gael Tavares Vázquez y tengo 19 años. Actualmente estoy en 4to cuatrimestre de universidad en la carrera de Entornos Virtuales. Me gusta el diseño digital, la música y la fotografía. Mis hobbies incluyen tocar la guitarra, tomar fotos y dibujar.</p>
+
+    <!-- Imagen -->
+    <img src="https://picsum.photos/200/150" alt="Foto de ejemplo">
+
+    <!-- Lista no ordenada -->
+    <h3>Mis Hobbies</h3>
+    <ul>
+      <li>Fotografía</li>
+      <li>Música</li>
+      <li>Dibujar</li>
+    </ul>
+
+    <!-- Lista ordenada -->
+    <h3>Metas</h3>
+    <ol>
+      <li>Aprender más programación</li>
+      <li>Mejorar mis diseños</li>
+      <li>Crear un portafolio</li>
+    </ol>
+
+    <!-- Lista de definición -->
+    <h3>Glosario</h3>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Lenguaje de marcado para crear páginas web.</dd>
+      <dt>CSS</dt>
+      <dd>Lenguaje de estilos para dar formato a las páginas web.</dd>
+    </dl>
+
+    <!-- Tabla -->
+    <h3>Habilidades</h3>
+    <table>
+      <tr>
+        <th>Tecnología</th>
+        <th>Nivel</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Intermedio</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Básico</td>
+      </tr>
+    </table>
+
+    <!-- Texto con modificadores -->
+    <p><strong>Negrita</strong>, <em>Cursiva</em>, <u>Subrayado</u>, <mark>Resaltado</mark>, <small>Texto pequeño</small></p>
+
+    <!-- Video embebido -->
+    <h3>Video favorito</h3>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/8ikYL4_yYCE" title="YouTube video" allowfullscreen></iframe>
+
+  </main>
+
+  <!-- Datos del desarrollador -->
+  <footer>
+    <p>Desarrollador: Ángel Gael Tavares Vázquez</p>
+    <p>Instagram: <a href="https://www.instagram.com/angxl.4.you" target="_blank">@angxl.4.you</a></p>
+    <p>Facebook: <a href="https://www.facebook.com/AngelTavares" target="_blank">Angel Tavares</a></p>
+  </footer>
+</body>
+</html>
